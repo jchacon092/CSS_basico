@@ -1,0 +1,265 @@
+body {
+  font-family: 'Dancing Script', cursive;
+  background-color: black;
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+  background-color:  #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  text-shadow: 2px 2px 2px #02010a;
+}
+
+
+.footer{
+
+    left: 0;
+    bottom: 0;
+    background-color: #C6d5c5;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 10px;
+
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  
+
+}
+.imgcentral {
+  background-color: #82c3a6;
+}
+
+.caja1 {
+  float: left;
+}
+.imgcentral img{
+
+   width:50%;
+   height:50%;
+   display:block;
+   margin:auto;
+   padding: 12px;
+}
+
+.imgretratos, .imgpaisajes{
+
+    background-color: #d5c75f;
+    width: 33.33%;
+    height: 230px;
+    float: left;
+
+}
+
+
+
+
+.imgpaisajes img{
+   width:75%;
+  height:88%;
+ padding: 14px 14px;  
+}
+
+
+.imgretratos img{
+  width:75%;
+  height:88%;
+ padding: 14px 14px;  
+}
+
+
+
+
+.imgtexto {
+  width:335px;
+height:auto;
+position:relative;
+display:inline-block;
+vertical-align:top;
+overflow:hidden;
+}
+
+.imagenes1{
+  float: left;
+}
+
+.header a.logo {
+  font-size: 2em;;
+  font-weight: bold;
+}
+
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+
+figure {
+
+  text-align: center;
+  margin: 100px;
+}
+
+figure img {
+  width: 420px;
+}
+
+.c1, .c2, .c3, .c4 {
+    color: black;
+    width: 25%;
+    height: 230px;
+    float: left;
+    background-color: #C6d5c5;
+  }
+ .c1{
+   border-radius: 0px 0px 0px 10px;
+ }
+ .c4{
+   border-radius: 0px 0px 10px 0px;
+ }
+
+#imagen1 {
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+#imagen2{
+-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+#imagen3{
+-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+  filter: sepia(90%);
+}
+#imagen4{
+-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+#imagen6{
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+#imagenr1{
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+#imagenr2{
+-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+#imagenr3{
+-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+  filter: sepia(90%);
+}
+
+#imagenr4{
+-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+#imagenr6{
+ -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+
+
+.rotacion {
+ -webkit-transition: -webkit-transform 1s ease-out;
+ -moz-transition: -moz-transform 1s ease-out;
+ transition: transform 1s ease-out;
+}
+
+.rotacion:hover {
+ -webkit-transform: rotate(10deg);
+ -moz-transform: rotate(10deg);
+ transform: rotate(10deg);
+}
+
+.traslacion {
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+}
+
+.traslacion:hover {
+     transform: translate(20px, -5px);
+    -ms-transform: translate(20px, -5px); /* IE 9 */
+    -webkit-transform: translate(20px, -5px); /* Safari y Chrome */
+    -moz-transform: translate(20px, -5px); 
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container div {
+  box-sizing: border-box;
+  min-width: 150px;
+  padding: 20px;
+}
+
+.adaptativa-porcentaje{
+
+  width:90%;
+}
+
+.imagenj1{
+  height: 50%;
+  width: 50%;
+  float: left;
+   background-color: #d5c75f;
+   
+
+}
+
+figure img{
+box-shadow: 2px 2px 2px #82c3a6;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="img"] {
+        width: 100%;
+    }
+    [class*="c"] {
+        width: 100%;
+    }
+    [class*="imagenj"] {
+        width:100%; 
+        height:100%;
+    }
+}
